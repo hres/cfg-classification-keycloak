@@ -14,4 +14,6 @@ Find the file default-ssl.conf.  Configure the entries for SSLCertificateFile an
 
 e.g.  Place your certificate and key files in /etc/apache2/ssl/
 
-Restart apache.
+sudo a2ensite default-ssl
+
+sudo service apache2 reload
