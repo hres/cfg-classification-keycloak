@@ -44,7 +44,10 @@ sudo service apache2 reload
 <security-realm name="ApplicationRealm">
                 <server-identities>
                     <ssl>
-                        <keystore path="application.keystore" relative-to="jboss.server.config.dir" keystore-password="password" alias="keycloak" key-password="password" generate-self-signed-certificate-host="localhost"/>
+                        <keystore path="application.keystore" relative-to="jboss.server.config.dir"
+                                  keystore-password="password" alias="keycloak" key-password="password"
+                                  generate-self-signed-certificate-host="localhost"
+                        />
                     </ssl>
 ```
 
