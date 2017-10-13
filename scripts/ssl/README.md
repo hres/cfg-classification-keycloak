@@ -38,3 +38,13 @@ sudo service apache2 reload
 
 1. In the Keycloak configuration folder, remove the application.keystore file.
 2. To setup the keystore and build/import the required certificates, execute the scripts in the [Keycloak](http://github.com/hres/cfg-classification-keycloak/tree/master/scripts/ssl/keycloak) folder.  Before beginning verify all parameters within each.
+3. Find the file configuration/standalone.xml and verify that the ApplicationRealm node looks something like the below.  In particular verify that the alias property is set to "keycloak".
+
+```xml
+<security-realm name="ApplicationRealm">
+                <server-identities>
+                    <ssl>
+                        <keystore path="application.keystore" relative-to="jboss.server.config.dir" keystore-password="password" alias="keycloak" key-password="password" generate-self-signed-certificate-host="localhost"/>
+                    </ssl>
+```
+
