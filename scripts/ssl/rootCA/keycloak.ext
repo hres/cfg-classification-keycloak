@@ -4,4 +4,4 @@ keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
 subjectAltName = @alt_names
 
 [alt_names]
-IP.1 = 10.148.179.163
+IP.1 = enter.your.ip.here
