@@ -32,7 +32,7 @@ sudo service apache2 reload
                 keyAlias="tomcat"
                 SSLProtocol="TLS" />
 ```
-3. To setup the keystore and build/import the required certificates, execute the scripts in the Tomcat folder.  Before beginning verify all parameters within each.
+3. To setup the keystore and build/import the required certificates, execute the scripts in the [Tomcat](http://github.com/hres/cfg-classification-keycloak/tree/master/scripts/ssl/tomcat) folder.  Before beginning verify all parameters within each.
 
 ## How to configure Keycloak for https ##
 
