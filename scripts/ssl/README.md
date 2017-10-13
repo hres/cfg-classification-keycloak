@@ -33,3 +33,8 @@ sudo service apache2 reload
                 SSLProtocol="TLS" />
 ```
 3. To setup the keystore and build/import the required certificates, execute the scripts in the Tomcat folder.  Before beginning verify all parameters within each.
+
+## How to configure Keycloak for https ##
+
+1. In the Keycloak configuration folder, remove the application.keystore file.
+2. To setup the keystore and build/import the required certificates, execute the scripts in the [Keycloak](http://github.com/hres/cfg-classification-keycloak/tree/master/scripts/ssl/keycloak) folder.  Before beginning verify all parameters within each.
