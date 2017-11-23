@@ -1,1 +1,1 @@
-keytool -genkey -alias tomcat -keyalg RSA -keystore ../tomcat.keystore -validity 10950
+sudo keytool -genkey -alias tomcat -keyalg RSA -keystore ../tomcat.keystore -validity 10950
