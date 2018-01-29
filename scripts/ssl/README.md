@@ -12,7 +12,7 @@ sudo a2enmod ssl
 ```
 3. Find the file default-ssl.conf.  Configure the entries for SSLCertificateFile and SSLCertificateKeyFile
 
-e.g.  Place your certificate and key files in /etc/apache2/ssl/
+  e.g.  Place your certificate and key files in /etc/apache2/ssl/
 
 4. Excecute:
 
