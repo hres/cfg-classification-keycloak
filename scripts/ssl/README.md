@@ -7,18 +7,19 @@
 Redirect / https://your-host-name-or-ip-here/
 
 2. Execute:
-
+```
 sudo a2enmod ssl
-
+```
 3. Find the file default-ssl.conf.  Configure the entries for SSLCertificateFile and SSLCertificateKeyFile
 
 e.g.  Place your certificate and key files in /etc/apache2/ssl/
 
 4. Excecute:
 
+```
 sudo a2ensite default-ssl
 sudo service apache2 reload
-
+```
 ## How to configure Tomcat for https ##
 
 1. Find tomcat's server.xml file.  Uncomment the <Connector> node for port 8443
