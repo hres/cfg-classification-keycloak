@@ -14,7 +14,7 @@ sudo a2enmod ssl
 
   e.g.  Place your certificate and key files in /etc/apache2/ssl/
 
-4. Excecute:
+4. Execute:
 
 ```
 sudo a2ensite default-ssl
