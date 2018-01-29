@@ -2,20 +2,21 @@
 
 ## How to configure Apache ##
 
-Find the file 000-default.conf.  In the xml node <VirtualHost *:80> add the following entry:
+1. Find the file 000-default.conf.  In the xml node <VirtualHost *:80> add the following entry:
 
 Redirect / https://your-host-name-or-ip-here/
 
-Execute:
+2. Execute:
 
 sudo a2enmod ssl
 
-Find the file default-ssl.conf.  Configure the entries for SSLCertificateFile and SSLCertificateKeyFile
+3. Find the file default-ssl.conf.  Configure the entries for SSLCertificateFile and SSLCertificateKeyFile
 
 e.g.  Place your certificate and key files in /etc/apache2/ssl/
 
-sudo a2ensite default-ssl
+4. Excecute:
 
+sudo a2ensite default-ssl
 sudo service apache2 reload
 
 ## How to configure Tomcat for https ##
