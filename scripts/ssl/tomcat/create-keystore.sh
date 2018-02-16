@@ -1,1 +1,1 @@
-sudo keytool -genkey -alias tomcat -keyalg RSA -keystore ../tomcat.keystore -validity 10950
+sudo keytool -genkey -dname "CN=java-dev.canadaeast.cloudapp.azure.com, OU=Health Canada, O=Government of Canada, L=Ottawa, S=Ontario, C=Canada" -alias tomcat -keyalg RSA -keystore ../tomcat.keystore -validity 10950
