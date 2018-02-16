@@ -4,4 +4,5 @@ keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
 subjectAltName = @alt_names
 
 [alt_names]
-IP.1 = 10.148.179.205
+DNS.1 = java-dev.canadaeast.cloudapp.azure.com
+DNS.2 = keycloak.canadaeast.cloudapp.azure.com
