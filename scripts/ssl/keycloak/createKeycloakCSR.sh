@@ -1,1 +1,1 @@
-keytool -certreq -alias keycloak -keystore application.keystore > keycloak.csr
+sudo keytool -certreq -alias keycloak -keystore application.keystore -file keycloak.csr
