@@ -1,6 +1,6 @@
-Create your own Certificate Authority.  This certificate will have to be imported manually wherever needed.
+Create a self signed Certificate Authority.  This certificate will have to be imported manually wherever needed.
 
-Execute: createLuc-CA.sh
+Execute: createSelfSignedCA.sh
 
 Once you have the CSRs from keycloak and tomcat you can execute:
 
