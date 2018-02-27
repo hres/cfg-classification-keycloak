@@ -4,4 +4,4 @@ keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
 subjectAltName = @alt_names
 
 [alt_names]
-IP.1 = your.IP.here.x
+DNS.1 = lam-dev.canadaeast.cloudapp.azure.com
