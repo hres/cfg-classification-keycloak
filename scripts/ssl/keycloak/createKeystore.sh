@@ -1,1 +1,1 @@
-sudo keytool -genkey -alias keycloak -keyalg RSA -keystore application.keystore -validity 10950
+sudo keytool -genkey -dname "CN=keycloak.canadaeast.cloudapp.azure.com, OU=IMSD, O=Health Canada, L=Ottawa, S=Ontario, C=Canada" -alias keycloak -keyalg RSA -keystore application.keystore -validity 10950
